@@ -1,0 +1,89 @@
+body {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #eee;
+}
+
+[login] .form-signin {
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+[login] .form-signin .form-signin-heading,
+[login] .form-signin .checkbox {
+	margin-bottom: 10px;
+}
+
+[login] .form-signin .checkbox {
+	font-weight: normal;
+}
+
+[login] .form-signin .form-control {
+	position: relative;
+	height: auto;
+	-webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+	      box-sizing: border-box;
+	padding: 10px;
+	font-size: 16px;
+	margin: 10px 0px;
+}
+
+[login] .form-signin .form-control:focus {
+	z-index: 2;
+}
+
+[login] .form-signin input[type="email"] {
+	margin-bottom: -1px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+[login] .form-signin input[type="password"] {
+	margin-bottom: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+[draggable].cards {
+	text-align: center;
+}
+
+[draggable].card {
+	border: 1px solid;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+[droppable].list-item {
+	border: 1px solid;
+	text-align: center;
+	height: 400px;
+}
+
+[droppable].list-item .title {
+	border: 1px solid;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+[droppable].over {
+	background: #aeaeae;
+    opacity: 0.5;
+}
+
+[droppable].drag {
+	opacity: 0.5;
+}
+
+.drop-result {
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px;
+	width: 100%;
+	font-weight: 600;
+    font-size: 18px;
+    white-space: pre;
+    white-space: pre-wrap
+}
